@@ -10,7 +10,7 @@ body{
     justify-content: center;
     position: relative;
     top: 80px;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 600;
     cursor:pointer;
 }
@@ -94,6 +94,8 @@ margin: 100px auto;
 .searchbar .actions{
     display: flex;
     gap: 8px;
+    position:relative;
+    right: 20px
 }
 .searchbar .actions button{
     border: none;

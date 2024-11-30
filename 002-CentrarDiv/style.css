@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+.uno{
+    background-color: rgb(96, 70, 162);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.dos{
+    background-color: orangered;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
