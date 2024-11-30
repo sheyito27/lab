@@ -109,6 +109,6 @@ margin: 100px auto;
     .searchbar .actions{
         position:relative;
         gap: none;
-        right: 60px;
+        right: 80px;
     }
 }
