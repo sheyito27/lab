@@ -1,0 +1,107 @@
+body{
+    font-family: sans-serif;
+    margin: 30px;
+    padding: 10px;
+}
+.letters{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    font-size: 100px;
+    font-weight: 600;
+    cursor:pointer;
+}
+.letters .primera:hover{
+    text-shadow: 1px 2px 3px #a0b9c9;
+}
+.letters .segunda:hover{
+    text-shadow: 1px 2px 3px #a0b9c9;
+}
+.letters .tercera:hover{
+    text-shadow: 1px 2px 3px #a0b9c9;
+}
+.letters .cuarta:hover{
+    text-shadow: 1px 2px 3px #a0b9c9;
+}
+.letters .quinta:hover{
+    text-shadow: 1px 2px 3px #a0b9c9;
+}
+.letters .sexta:hover{
+    text-shadow: 1px 2px 3px #a0b9c9;
+}
+.letters .primera{
+    color: rgb(0, 89, 255);
+}
+.letters .segunda{
+    color: rgb(255, 17, 0);
+}
+.letters .tercera{
+    color: rgb(255, 217, 0);
+}
+.letters .cuarta{
+    color: rgb(29, 92, 209);
+}
+.letters .quinta{
+    color: rgb(41, 170, 2);
+}
+.letters .sexta{
+    color: rgb(255, 17, 0);
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}  
+.searchbar{
+border: solid 1px #ccc;
+border-radius: 30px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 5px 10px;
+margin: 100px auto;
+}
+.searchbar:focus-within{
+    border: solid 1px #aaa;
+    box-shadow: 0px 1px 5px rgb(17, 17, 17);
+}
+.searchbar input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    flex: auto;
+}
+.searchbar .actions{
+    display: flex;
+    gap: 8px;
+}
+.searchbar .actions button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #726d6d;
+}
+.searchbar .actions button:hover{
+    color: black;
+}
