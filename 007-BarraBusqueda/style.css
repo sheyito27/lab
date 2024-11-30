@@ -95,7 +95,6 @@ margin: 100px auto;
     display: flex;
     gap: 8px;
     position:relative;
-    right: 20px
 }
 .searchbar .actions button{
     border: none;
@@ -106,4 +105,9 @@ margin: 100px auto;
 }
 .searchbar .actions button:hover{
     color: black;
+}
+@media (min-widmin-width: 300px) {
+    .searchbar .actions{
+        right: 400px;
+    }
 }
