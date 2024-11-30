@@ -105,10 +105,10 @@ margin: 100px auto;
 .searchbar .actions button:hover{
     color: black;
 }
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .searchbar .actions{
         position:relative;
         gap: none;
-        right: 20px;
+        right: 60px;
     }
 }
