@@ -14,22 +14,7 @@ body{
     font-weight: 600;
     cursor:pointer;
 }
-.letters .primera:hover{
-    text-shadow: 1px 2px 3px #a0b9c9;
-}
-.letters .segunda:hover{
-    text-shadow: 1px 2px 3px #a0b9c9;
-}
-.letters .tercera:hover{
-    text-shadow: 1px 2px 3px #a0b9c9;
-}
-.letters .cuarta:hover{
-    text-shadow: 1px 2px 3px #a0b9c9;
-}
-.letters .quinta:hover{
-    text-shadow: 1px 2px 3px #a0b9c9;
-}
-.letters .sexta:hover{
+.letters .letters__item:hover{
     text-shadow: 1px 2px 3px #a0b9c9;
 }
 .letters .primera{
@@ -90,6 +75,7 @@ margin: 100px auto;
     padding: 10px;
     font-size: 18px;
     flex: auto;
+    width: 80%;
 }
 .searchbar .actions{
     display: flex;
@@ -104,11 +90,4 @@ margin: 100px auto;
 }
 .searchbar .actions button:hover{
     color: black;
-}
-@media (min-width: 300px) {
-    .searchbar .actions{
-        position:relative;
-        gap: none;
-        right: 50px;
-    }
 }

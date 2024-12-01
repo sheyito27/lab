@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    background-color: #1c56a8;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.contenedor .sub-contenedor{
+    width: 600px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 0px 5px 10px rgba(83, 184, 224, 0.5);
+    transition: transform 0.44s ease-in-out;
+}
+.contenedor .sub-contenedor:hover{
+    transform: translateY(-17px);;
+}
+.contenedor .sub-contenedor .contenido{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px
+}
+.contenedor .sub-contenedor .contenido .icon{
+    margin: 5px;
+}
+.contenedor .sub-contenedor .contenido .icon img{
+    height: 48px;
+    width: 48px;
+}
+.contenedor .sub-contenedor .contenido .mensaje .title{
+    font-weight: bolder;
+}
+.contenedor .sub-contenedor .actions{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-right: 5px;
+}
+.contenedor .sub-contenedor .actions button{
+    border: none;
+    padding: 15px;
+    min-width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contenedor .sub-contenedor .actions .btn-descargar{
+    background-color:#2e7bd4;
+    color: white
+}
+.contenedor .sub-contenedor .actions .btn-descargar:hover{
+    background-color: #1c6bc5;
+}
+.contenedor .sub-contenedor .actions .btn-volver{
+    background-color: white;
+    border: solid 1px #ccc
+}
+.contenedor .sub-contenedor .actions .btn-volver:hover{
+    background-color: #f7f3f3;
+}
+@media (max-width: 600px){
+    .contenedor .sub-contenedor{
+        width: 80%;
+    }
+    .contenedor .sub-contenedor .actions{
+        flex-direction: column;
+    }
+}
