@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Portfolio</title>
+        <meta name="robots" content="index, follow">
+        <meta name="theme-color" content="Portfolio de sheyito">
+        <meta name="theme-color" content="#000000">
+        <!--OPEN GRAPH-->
+        <meta 
+        property="og:title" 
+        content="Portfolio de un estudiante de programación">
+        <meta 
+        property="og:description"
+        content="Portfolio de un estudiante de programación">
+        <meta 
+        property="og:image" 
+        content="programador.jpg">
+        <!--LINKS-->
+        <link rel="alternate" href="https://roadmap.sh/frontend">
+        <link rel="canonical" href="https://roadmap.sh/frontend">
+        <link rel="shortcut icon" href="programador.jpg" referrerpolicy="noreferer" type="image/x-icon">
+        <style>
+            body{
+                background-color:rgb(37, 35, 35);
+                color: white;
+                font-family: sans-serif;
+                margin: 25px;
+                padding: 30px;
+                border: 3px solid rgb(255, 255, 255);
+            }
+            header{
+                display: flex;
+                justify-content: center;
+            }
+            nav{
+                display: flex;
+                justify-content:center;
+                gap: 20px
+                
+            }
+            a{
+                color:aquamarine;
+            }
+            a:hover{
+                color: aqua;
+            }
+            button{
+                height: 30px;
+                width: 120px;
+                background-color: rgb(27, 26, 26);
+                color: white;
+                border: 1px solid white;
+                border-radius: 5px;
+            }
+            button:hover{
+                cursor: pointer;
+                background-color: rgb(20, 20, 20);
+            }
+            h2{
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 15px;
+                background-color: rgb(17, 17, 17);
+                border: 1px solid rgb(255, 255, 255);
+            }
+            ol{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+            }
+        </style>
+    </head>
+<!--Esto es un comentario-->
+    <body>
+        <header>
+            <h1>Portfolio de @sheyito</h1>
+            <nav>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="https://github.com/" target="_blank">Github</a>
+            </nav>
+        </header>
+
+        <main>
+            
+        <p>1 mes <strong>aprendiendo</strong> desarrollo de software y 3 días <strong>aprendiendo</strong>  desarrollo web Frontend.</p>
+        <button>Ver más</button>
+        <h2 id="experiencia">Experiencia</h2>
+
+        <ul>
+            <li class="unordered-list">Zeeman</li>
+            <li class="unordered-list">Mapfre</li>
+            <li class="unordered-list">Adamo</li>
+        </ul>
+
+        <img 
+        id="photo-image"
+        src="programador.jpg"
+        alt="Una fotografía de un programador de espaldas mirando una pantalla" title="Programador"
+        style="height: 20rem;">
+        
+        <h2 id="proyectos">Proyectos realizados</h2>
+        
+        <aside>
+            <header>
+                <h3>Mis tecnologías favoritas</h3>
+            </header>
+            <ol>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ol>
+        </aside>
+
+        <section>
+            <article>
+                <header>
+                    <h4>Clon de la barra de búsqueda de Google</h4>
+                </header>
+                <p>Desarrollo del diseño y la estructura de una barra de búsqueda moderna.
+                <footer>
+                    <small>lo más parecida posible a la de <a href="https://www.google.com/" target="_blank">Google</a>.</p></small>
+                </footer>
+            </article>
+        </section>
+
+        <section>
+            <h2>Fromulario de contacto</h2>
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <div>
+                        <label for="name">Nombre:
+                            <input 
+                            type="text"
+                            id="name" name="name" 
+                            placeholder="Nombre"
+                            required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="email">Email:
+                            <input 
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Correo electrónico"
+                            required>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Información adicional</legend>
+                    <div>
+                        <label for="tel">Teléfono: 
+                            <input 
+                            type="tel"
+                            id="tel"
+                            name="name"
+                            placeholder="Númeri de teléfono"
+                            required
+                            pattern="[0-9]{9}">
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Otros</legend>
+                    <div>
+                        <label for="why" id="why">¿Por qué quieres contactar?</label>
+                        <select name="why" id="why">
+                            <option value="1">Trabajo</option>
+                            <option value="2">Duda</option>
+                            <option value="3">Más Información</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="terms">¿Aceptas los términos?</label>
+                        <input 
+                        type="checkbox"
+                        id="terms"
+                        name="terms"
+                        required>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Enviar contacto">
+            </form>
+        </section>
+        </main>
+        <footer>
+            Copyright © 2024 - Un portafolio de otro programador más.
+        </footer>
+    </body>
+</html>
