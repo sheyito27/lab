@@ -8,7 +8,7 @@ body{
     font-family: sans-serif;
 }
 button{
-    background-color: #f8f7f7;
+    background-color: #d5d4d434;
     border: none;
     width: 50px;
     height: 50px;
@@ -16,6 +16,7 @@ button{
 }
 button:hover{
     cursor: pointer;
+    background-color: #edebebee;
 }
 
 .calculator-display{
@@ -57,7 +58,10 @@ button:hover{
     gap: 5px;
 }
 .top-buttons button{
-    background-color: rgb(230, 229, 229);
+    background-color: #c7c7c78c;
+}
+.top-buttons button:hover{
+    background-color: #c7c7c7db;
 }
 .grid-buttons{
     display: grid;
@@ -73,18 +77,34 @@ button:hover{
 .btn-÷{
     background-color: #21b1a7b6;
 }
+.btn-÷:hover{
+    background-color: #21b1a7;
+}
 .btn-x{
     background-color: #faa700c8
 }
+.btn-x:hover{
+    background-color: #faa700;
+}
 .btn--{
-    background-color: #ec807ec4
+    background-color: #ec807ec4;
+}
+.btn--:hover{
+    background-color: #ec807e;
 }
 .btn-\+{
     background-color: #7a92dfce
 }
+.btn-\+:hover{
+    background-color: #7a92df;
+}
 .btn-\={
     background-color: #9375b0ce
 }
+.btn-\=:hover{
+    background-color: #9375b0
+}
+
 
     /* Estilos para pantallas grandes */
     @media (min-width: 768px) {
