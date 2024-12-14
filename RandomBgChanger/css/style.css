@@ -48,6 +48,9 @@ main{
     cursor: pointer;
     transform: translateY(-5px);
 }
+main{
+    width: 100%;
+}
 @media(max-width: 400px){
     .main_button button{
         width: 300px;
