@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.caja{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+.tecla{
+  width: auto;
+  padding:3px 20px 5px;
+  text-align:center;
+  margin:1px;
+  border-radius:3px;
+  border:none;
+  font-size:1.8em;
+  background-color:rgb(43, 130, 189);
+  color:white;
+
+}
+.campo{
+  height: 50PX;
+  width: 400PX;
+  border-radius: 15px;
+  border-color: rgba(0, 0, 0, 0.459);
+  font-size: 1.8rem;
+  text-align: center;
+}
+.pulsaciones{
+  font-size: 1.8rem;
+}
+.number{
+  color: rgb(216, 30, 30)
+}
